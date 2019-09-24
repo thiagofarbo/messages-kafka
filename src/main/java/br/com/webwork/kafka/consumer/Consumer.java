@@ -23,7 +23,7 @@ public class Consumer {
 
     public void consume(final Properties properties) throws ExecutionException, InterruptedException {
 
-//      Create producer
+//      Create consumer
         KafkaConsumer<String, String> consumer = new KafkaConsumer<String, String>(properties);
 
 //      Subscribe consumer to our topic(s).
