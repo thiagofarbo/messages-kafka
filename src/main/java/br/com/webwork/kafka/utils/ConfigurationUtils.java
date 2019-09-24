@@ -15,7 +15,7 @@ public class ConfigurationUtils {
 
 	final Logger logger = LoggerFactory.getLogger(Producer.class);
 	
-    public static String bootStrapServer = "127.0.0.1:9092";
+    public static final String bootStrapServer = "127.0.0.1:9092";
     public static final String topic = "first_topic";
     public static final String idGroup = "my-fourth-application-group";
     
